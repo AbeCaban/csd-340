@@ -1,6 +1,3 @@
-# csd-340
-HTML &amp; CSS
-
 <!DOCTYPE html>
 <html lang="en-us">
     <head>
