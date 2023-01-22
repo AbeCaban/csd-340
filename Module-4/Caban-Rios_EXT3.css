@@ -19,15 +19,11 @@ h3{
     font-weight: 300;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     width: 45%;
-    list-style-position: inside;
     padding: 10px;
     border: 1px solid red ;
     border-radius: 15px;
     float: left;
-}
-
-ul{
-    list-style-type: upper-roman;
+    list-style-position: inside;
 }
 
 #rightdiv{
@@ -39,6 +35,9 @@ ul{
     border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
+}
+
+#ulrught{
     list-style-type: upper-roman;
 }
 
@@ -48,7 +47,7 @@ ul{
 }
 
 #lastdiv{
-    font-weight: 300;
+    float: right;
     margin-bottom: 20px;
 }
 
@@ -61,8 +60,5 @@ a:hover {
     text-decoration: underline;
 }
 
-#backtotop{
-    font-weight: 300;
-    float: right;
-}
+
 
