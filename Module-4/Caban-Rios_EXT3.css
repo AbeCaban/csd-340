@@ -15,17 +15,23 @@ h3{
 }
 
 #leftdiv{
+    
     font-weight: 300;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     width: 45%;
+    list-style-position: inside;
+    padding: 10px;
     border: 1px solid red ;
     border-radius: 15px;
-    padding: 10px;
-    list-style-position: inside;
-    list-style-type: decimal;
+    float: left;
+}
+
+ul{
+    list-style-type: upper-roman;
 }
 
 #rightdiv{
+    float: right;
     font-weight: 300;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     width: 45%;
@@ -34,7 +40,6 @@ h3{
     padding: 10px;
     list-style-position: inside;
     list-style-type: upper-roman;
-    float: right;
 }
 
 #centerDiv{
