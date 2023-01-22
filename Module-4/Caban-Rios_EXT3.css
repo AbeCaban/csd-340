@@ -1,5 +1,5 @@
 
-.container{
+#container{
     margin-top: 50px;
     margin-left: 100px;
     margin-right: 100px;
@@ -10,35 +10,40 @@ h1{
     text-align: center;
 }
 
-.leftdiv{
+h3{
+    font-weight: 500;
+}
+
+#leftdiv{
     font-weight: 300;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     width: 45%;
-    border: 1px dotted red ;
+    border: 1px solid red ;
     border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
     list-style-type: decimal;
 }
 
-.rightdiv{
+#rightdiv{
     font-weight: 300;
     font-family: 'Oswald', Verdana, Arial, sans-serif;
     width: 45%;
-    border: 1px dotted red ;
+    border: 1px dashed red ;
     border-radius: 15px;
     padding: 10px;
     list-style-position: inside;
     list-style-type: upper-roman;
+    float: right;
 }
 
-h3{
-    font-weight: 500;
-}
-.lastdiv{
-    font-weight: 300;
+#centerDiv{
     width: 100%;
     margin-top: 60%;
+}
+
+#lastdiv{
+    font-weight: 300;
     margin-bottom: 20px;
 }
 
@@ -51,7 +56,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.backtotop{
+#backtotop{
     font-weight: 300;
     float: right;
 }
