@@ -19,7 +19,7 @@ div{
 }
 
 body{
-    background: white;
+    background: rgba(247, 112, 24, 0.2);
 }
 
 h1{
@@ -55,18 +55,6 @@ figcaption{
 }
 
 
-/* 
-#lastdiv{
-    
-}
-
-a:link{
-    
-}
-
-a:hover { 
-    
-} */
 
 
 
