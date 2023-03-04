@@ -23,6 +23,7 @@ header{
   font-size:150%;
 
 }
+
 .containerone{
   margin-bottom: 190px;
 }
@@ -47,6 +48,12 @@ header{
 	text-align: center;
 	color: #2c1132;
 }
+
+#SubjectNameHobbiesPage1{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-align: center;
+	color: #2c1132;
+}
 .hobbiesgrid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -65,10 +72,7 @@ h3{
     color: #2c1132;
 	font-size: 24pt;
 }
-/* 
-figure{
-    text-align: center;
-} */
+
 figcaption{
 	font-weight: 500;
     color: #2c1132;
@@ -95,19 +99,6 @@ footer a{
     font-style: italic;
     font-size: 25px;
     }
-/* #HobbiesPageLink{
-	margin-right: 150px;
-	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
-
-}
-#LandingPagelink{
-	margin-left: 150px;
-	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
-}
-#AboutPageLink{
-	margin-left: 150px;
-	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
-} */
 #SendMessegeBotton{
 	box-shadow: 0 4px 8px 0 rgb(252, 255, 78);
 }
