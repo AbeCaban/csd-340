@@ -39,7 +39,15 @@ header{
 	width: 100%;
 	height: auto;
 }
+#FirstPicture1{
+	width: 100%;
+	height: auto;
+}
 #SecondPicture{
+	width: 100%;
+	height: auto;
+}
+#SecondPicture1{
 	width: 100%;
 	height: auto;
 }
@@ -60,10 +68,12 @@ header{
     padding: 10px;
 }
 .grid-item{
+    background-color: aqua;
     border: 1px solid #9c44ac ;
     border-radius: 10px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
+    margin: 5PX;
 }
 h3{
 	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
